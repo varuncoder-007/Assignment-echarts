@@ -1,11 +1,14 @@
 import "./App.css";
-import Home from "./components/Home";
+import BarChart from "./components/BarChart";
+import ScatterPlot from "./components/ScatterPlot";
 
 function App() {
   return (
     <div className="App">
       <h2>Assessment</h2>
-      <Home />
+      <ScatterPlot />
+      <BarChart />
+
     </div>
   );
 }
